@@ -393,6 +393,11 @@
 
     <!-- Fast brightness animation ramp rate in float. -->
     <item name="config_brightnessRampRateFastFloat" format="float" type="dimen">0.4058823</item>
+    
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+        May be less than the minimum allowed brightness setting
+        that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">35</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
