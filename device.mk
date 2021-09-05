@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.lunaa
+    android.hardware.sensors@2.1-service.lunaa \
+    als_correction_service.lunaa
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
