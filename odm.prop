@@ -7,6 +7,7 @@ persist.vendor.fp.template_updateflag=V1
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=500
 ro.surface_flinger.set_touch_timer_ms=800
+ro.surface_flinger.set_display_power_timer_ms=1000
 
 # Radio
 persist.radio.multisim.config=dsds
