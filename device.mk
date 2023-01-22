@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.1-service.lunaa
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
