@@ -31,3 +31,6 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Include the proprietary files BoardConfig.
 include vendor/realme/lunaa/BoardConfigVendor.mk
+
+#Include Firmware
+include vendor/firmware/RMX3360/firmware.mk
