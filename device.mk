@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Sensors
+PRODUCT_PACKAGES += \
+    als_correction_service.lunaa
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
