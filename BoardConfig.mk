@@ -10,7 +10,7 @@ include device/oneplus/sm8350-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/lunaa
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 480
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus_yupik_QGKI.config
