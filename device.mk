@@ -29,6 +29,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.widevine.rc
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
