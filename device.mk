@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.widevine.rc
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
