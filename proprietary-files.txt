@@ -569,6 +569,7 @@ odm/etc/camera/wide.bin
 odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
 odm/lib/libc++_shared.so
+odm/lib/libQnnHtpStub.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.rtb.so
 odm/lib64/camera/components/com.oplus.node.videoenhance.so
@@ -712,6 +713,7 @@ odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/lib64/libQnnHtpStub.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
