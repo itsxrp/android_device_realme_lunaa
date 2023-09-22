@@ -1,0 +1,26 @@
+# Copyright (C) 2023 Paranoid Android
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+on property:sys.boot_completed=1
+    # Display
+    copy /vendor/etc/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm /mnt/vendor/persist/data/pfm/licenses/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm
+    copy /vendor/etc/Oplus_QC_LTM_Commercial_SM7325_2021_05_20.pfm /mnt/vendor/persist/data/pfm/licenses/Oplus_QC_LTM_Commercial_SM7325_2021_05_20.pfm
+    copy /vendor/etc/Oplus_QC_LTM_Commercial_SM8350_2021_02_03.pfm /mnt/vendor/persist/data/pfm/licenses/Oplus_QC_LTM_Commercial_SM8350_2021_02_03.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/Oplus_QC_LTM_Commercial_SM7325_2021_05_20.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/Oplus_QC_LTM_Commercial_SM8350_2021_02_03.pfm
+
+    # Widevine
+    copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
+    chown system system /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm

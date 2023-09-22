@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.face.sense_service.camera_id=1
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.widevine.rc
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
