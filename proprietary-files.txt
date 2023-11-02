@@ -99,7 +99,6 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 odm/etc/bt/msnv11.bin
 
 # Camera
-# Camera
 odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/aicolor/duallut_background.bmp
 odm/etc/camera/aicolor/duallut_portrait.bmp
@@ -567,10 +566,12 @@ odm/etc/camera/tonemap/tonemap_lut_7
 odm/etc/camera/tonemap/tonemap_lut_8
 odm/etc/camera/tonemap/tonemap_lut_9
 odm/etc/camera/wide.bin
+odm/lib/libYTCommon.so
 odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
 odm/lib/libc++_shared.so
 odm/lib/libQnnHtpStub.so
+odm/lib64/libYTCommon.so
 odm/lib64/camera/com.qti.sensor.hi846.so
 odm/lib64/camera/com.qti.sensor.imx615.so
 odm/lib64/camera/com.qti.sensor.ov02b.so
