@@ -716,6 +716,10 @@ odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+odm/lib64/libui.so
+odm/lib64/android.hardware.graphics.allocator@2.0.so
+odm/lib64/android.hardware.graphics.allocator@3.0.so
+odm/lib64/android.hardware.graphics.allocator@4.0.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/arcsoft_calibration_uw.bin
