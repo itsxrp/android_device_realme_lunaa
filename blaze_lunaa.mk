@@ -5,18 +5,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lunaa device
 $(call inherit-product, device/realme/lunaa/device.mk)
 
-# Inherit some common aosp Stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Blaze Stuff
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-# Environment Flags
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+# Blaze Official Stuff
+BLAZE_MAINTAINER := itsXRP
+BLAZE_BUILD_TYPE := OFFICIAL
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 #Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_lunaa
+PRODUCT_NAME := blaze_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
