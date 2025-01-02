@@ -11,10 +11,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lunaa device
 $(call inherit-product, device/realme/lunaa/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lunaa
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Pixelage Props
+TARGET_FACE_UNLOCK_SUPPORTED := true
+PIXELAGE_BUILDTYPE := OFFICIAL
+
+PRODUCT_NAME := pixelage_lunaa
 PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
